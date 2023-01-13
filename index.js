@@ -227,7 +227,7 @@ Miku.ev.on('group-participants.update', async (anu) => {
         return status
     }
 	
-    Miku.public = false
+    Miku.public = true 
 	
     Miku.ev.on('creds.update', saveState)
 
